@@ -23,14 +23,12 @@ class App extends React.Component<IAppProps, IAppState> {
     }
   }
 
-
   render() {
     const { room } = this.state;
 
     if (room) {
       return <Redirect to={room}/>;
     }
-
 
     return (
       <main className="container my-5">
@@ -45,7 +43,6 @@ class App extends React.Component<IAppProps, IAppState> {
     );
   }
 }
-
 
 export interface IAppProps {
   location: {
