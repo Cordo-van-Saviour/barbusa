@@ -116,7 +116,7 @@ dist
 .pnp.*
 
 # Production
-public/*
+public/js/*
 dist/*
 
 # misc
