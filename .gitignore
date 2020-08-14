@@ -9,11 +9,11 @@
 /coverage
 
 # production
-public/
-dist/
+public/*
+dist/*
 
 # misc
-.idea
+.idea/*
 .DS_Store
 .env.local
 .env.development.local
